@@ -19,6 +19,10 @@ This instance use ``sqlite3`` Database, just run.
 
 <pre>node ace generate:key</pre>
 
+##### RUN Migration to create tables
+
+<pre>node ace migration:run</pre>
+
 ##### RUN apps
 
 <pre>node ace serve --watch</pre>
@@ -109,3 +113,6 @@ pm2 restart api-many-to-many
 <pre>cd build/
 sudo cp -R ../docs/ .
 </pre>
+
+
+# For more see adonis documentation [Many to Many](https://docs.adonisjs.com/reference/orm/relations/many-to-many#sidenav-open) reference.
